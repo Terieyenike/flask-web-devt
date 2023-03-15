@@ -1,15 +1,18 @@
 from flask import Flask, render_template, request, redirect
 import csv
+import datetime
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template('index.html')
+    current_year = datetime.datetime.now().year
+    return render_template('index.html', year=current_year)
 
 @app.route("/<string:page_name>")
 def html_page(page_name):
-    return render_template(page_name)
+    current_year = datetime.datetime.now().year
+    return render_template(page_name, year=current_year)
 
 
 def write_to_csv(data):
