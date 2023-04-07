@@ -6,9 +6,9 @@ Using Python mini web framework, Flask to build a production ready app and deplo
 
 ## Tech Stack
 
-**Client:** HTML, CSS
+**Client:** HTML, CSS, Jinja
 
-**Server:** Python
+**Server:** Python, Flask
 
 ## Authors
 
