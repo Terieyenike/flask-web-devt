@@ -10,6 +10,8 @@ Using Python mini web framework, Flask to build a production ready app and deplo
 
 **Server:** Python, Flask
 
+**Deloyment:** Amazon Elastic Beanstalk
+
 ## Authors
 
 [Teri Eyenike](https://iamteri.tech)
